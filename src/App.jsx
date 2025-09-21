@@ -155,12 +155,12 @@ function App() {
           <h2 className="font-poppins font-medium text-4xl text-[#242B36] leading-11">
             Popular Categories
           </h2>
-          <div className="py-2 border-2 border-[#007456] rounded-lg w-full max-w-50 flex justify-center items-center">
+          <div className="py-2 border-2 border-[#007456] rounded-lg w-full max-w-58 flex justify-center items-center">
             <a
               href="#"
               className="pr-1.5 font-poppins font-medium text-base leading-6 text-[#007456]"
             >
-              Design & Creative
+              Browse all categories
             </a>
             <MdArrowOutward className="inline text-base text-[#007456]" />
           </div>
@@ -236,6 +236,302 @@ function App() {
           </div>
         </div>
       </section>
+
+       {/* popolar servicess section  */}
+       <section className="bg-[#007456]/5 py-[120px]">
+         <div className="w-full max-w-[1320px] mx-auto">
+          <div className="flex justify-between pb-10">
+          <h3 className="font-poppins font-medium text-4xl text-[#242B36] leading-11">Popular Services</h3>
+          <div className="flex gap-3">
+            <div className="px-4.5 py-2.5 bg-white border-2 rounded-lg border-[#417D6E]/20">
+              <a href="#" className="font-poppins font-medium text-base leading-6 text-[#007456] ">Design & Creative</a>
+            </div>
+            <div className="px-4.5 py-2.5 border-2 rounded-lg border-[#417D6E]/20">
+              <a href="#" className="font-poppins font-medium text-base leading-6 text-[#242B36]">Dev & IT</a>
+            </div>
+            <div className="px-4.5 py-2.5 border-2 rounded-lg border-[#417D6E]/20">
+              <a href="#" className="font-poppins font-medium text-base leading-6 text-[#242B36]">Digital Marketing</a>
+            </div>
+          </div>
+         </div>
+         {/* popolar servicess cards */}
+         <div>
+          {/* first row */}
+          <div className="flex gap-6">
+            {/* card 1 */}
+            <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card 2 */}
+             <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           {/* card 3 */}
+            <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* secound row */}
+          <div className="flex gap-6 py-8">
+            {/* card 1 */}
+            <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card 2 */}
+             <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           {/* card 3 */}
+            <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         </div>
+       </section>
+
+       {/* latest job */}
+       <section className="py-[120px]">
+         <div className="w-full max-w-[1320px] mx-auto">
+          <div className="pb-10">
+            <h2 className="font-poppins font-medium text-4xl leading-11 text-[#242B36]">Latest Job</h2>
+          </div>
+          {/* cards */}
+          <div className="flex gap-6">
+            {/* card 1 */}
+            <div className="w-full px-6 py-8 max-w-[424px] border-2 rounded-xl border-[#1B2129]/10">
+            <h3 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">Logo Design for Business Loan Brokerage</h3>
+            <div className="flex items-center gap-2.5 py-2">
+              <p className="font-poppins font-normal text-base leading-6 text-[#414E62]">Jun 5, 2025</p>
+              <div className="h-1.5 w-1.5 rounded bg-[#FA8C00]"></div>
+              <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">MidLevel</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <p className="font-poppins font-medium text-xl leading-7 text-[#242B36]">$260</p>
+              <div className="py-1.5 px-3.5 rounded-full bg-[#ECEDEF] font-poppins font-medium text-sm leading-6 text-[#3B4759]">Fixed</div>
+              <p className="font-poppins font-normal text-base leading-6 text-[#414E62]">Posted 3 hours ago</p>
+            </div>
+            <p className="font-poppins font-normal text-base leading-6 text-[#3B4759] py-4">We are seeking a talent graphic designer to create a professional logo for Our....</p>
+            <div className="flex gap-2">
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Business Card Design</div>
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Graphic Design</div>
+            </div>
+            <div className="flex gap-2 pt-2">
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Graphic Design</div>
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Adobe Illustrator</div>
+            </div>
+            <div className="flex items-center gap-1 pt-4">
+              <a href="#" className="font-poppins font-medium text-sm leading-5 text-[#007456]">View More</a>
+              <div className="pt-[1px]">
+                <IoMdArrowForward className="text-lg text-[#007456]"/>
+              </div>
+            </div>
+            </div>
+            {/* card 2 */}
+             <div className="w-full px-6 py-8 max-w-[424px] border-2 rounded-xl border-[#1B2129]/10">
+            <h3 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">Logo Design for Business Loan Brokerage</h3>
+            <div className="flex items-center gap-2.5 py-2">
+              <p className="font-poppins font-normal text-base leading-6 text-[#414E62]">Jun 5, 2025</p>
+              <div className="h-1.5 w-1.5 rounded bg-[#FA8C00]"></div>
+              <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">MidLevel</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <p className="font-poppins font-medium text-xl leading-7 text-[#242B36]">$260</p>
+              <div className="py-1.5 px-3.5 rounded-full bg-[#ECEDEF] font-poppins font-medium text-sm leading-6 text-[#3B4759]">Fixed</div>
+              <p className="font-poppins font-normal text-base leading-6 text-[#414E62]">Posted 3 hours ago</p>
+            </div>
+            <p className="font-poppins font-normal text-base leading-6 text-[#3B4759] py-4">We are seeking a talent graphic designer to create a professional logo for Our....</p>
+            <div className="flex gap-2">
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Business Card Design</div>
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Graphic Design</div>
+            </div>
+            <div className="flex gap-2 pt-2">
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Graphic Design</div>
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Adobe Illustrator</div>
+            </div>
+            <div className="flex items-center gap-1 pt-4">
+              <a href="#" className="font-poppins font-medium text-sm leading-5 text-[#007456]">View More</a>
+              <div className="pt-[1px]">
+                <IoMdArrowForward className="text-lg text-[#007456]"/>
+              </div>
+            </div>
+            </div>
+            {/* card 3 */}
+             <div className="w-full px-6 py-8 max-w-[424px] border-2 rounded-xl border-[#1B2129]/10">
+            <h3 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">Logo Design for Business Loan Brokerage</h3>
+            <div className="flex items-center gap-2.5 py-2">
+              <p className="font-poppins font-normal text-base leading-6 text-[#414E62]">Jun 5, 2025</p>
+              <div className="h-1.5 w-1.5 rounded bg-[#FA8C00]"></div>
+              <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">MidLevel</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <p className="font-poppins font-medium text-xl leading-7 text-[#242B36]">$260</p>
+              <div className="py-1.5 px-3.5 rounded-full bg-[#ECEDEF] font-poppins font-medium text-sm leading-6 text-[#3B4759]">Fixed</div>
+              <p className="font-poppins font-normal text-base leading-6 text-[#414E62]">Posted 3 hours ago</p>
+            </div>
+            <p className="font-poppins font-normal text-base leading-6 text-[#3B4759] py-4">We are seeking a talent graphic designer to create a professional logo for Our....</p>
+            <div className="flex gap-2">
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Business Card Design</div>
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Graphic Design</div>
+            </div>
+            <div className="flex gap-2 pt-2">
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Graphic Design</div>
+              <div className="w-fit px-3.5 py-1.5 font-poppins font-normal text-sm leading-5 text-[#414E62] border-2 border-[#C4C8CE] rounded-2xl">Adobe Illustrator</div>
+            </div>
+            <div className="flex items-center gap-1 pt-4">
+              <a href="#" className="font-poppins font-medium text-sm leading-5 text-[#007456]">View More</a>
+              <div className="pt-[1px]">
+                <IoMdArrowForward className="text-lg text-[#007456]"/>
+              </div>
+            </div>
+            </div>
+          </div>
+         </div>
+       </section>
     </>
   );
 }
