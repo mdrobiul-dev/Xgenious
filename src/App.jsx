@@ -532,6 +532,152 @@ function App() {
           </div>
          </div>
        </section>
+
+       {/* hire the best */}
+       <section className="mb-20 relative z-0">
+          <div className="bg-[#F2F8F7] z-10 w-[70%] h-[90%] absolute top-0">
+          </div>
+            <div className="relative  z-50 w-full flex gap-30 max-w-[1320px] mx-auto py-37.5">
+              <div className="w-1/2 py-16">
+                <h2 className="font-poppins font-medium text-4xl leading-9 text-[#242B36] pb-11">All You Need to Hire The Best</h2>
+                <div className="flex gap-3">
+                  <div className="h-[32px] w-[32px]">
+                    <img src="/images/hb_icon.png"  className="w-full h-full object-cover"/>
+                  </div>
+                  <div>
+                    <h4 className="font-poppins font-medium text-lg leading-6.5">Verified Professionals</h4>
+                    <p className="font-poppins font-normal text-base leading-6 text-[#3B4759]">Work with skilled freelancers who pass quality checks and portfolio reviews.</p>
+                  </div>
+                </div>
+                <div className="flex gap-3 py-8">
+                  <div className="h-[32px] w-[32px]">
+                    <img src="/images/hb_icon.png"  className="w-full h-full object-cover"/>
+                  </div>
+                  <div>
+                    <h4 className="font-poppins font-medium text-lg leading-6.5">Pay Only for Results</h4>
+                    <p className="font-poppins font-normal text-base leading-6 text-[#3B4759]">Release payment once your project in successfully completed..</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="h-[32px] w-[32px]">
+                    <img src="/images/hb_icon.png"  className="w-full h-full object-cover"/>
+                  </div>
+                  <div>
+                    <h4 className="font-poppins font-medium text-lg leading-6.5">Secure & Transparent</h4>
+                    <p className="font-poppins font-normal text-base leading-6 text-[#3B4759]">Built-in tools for communication, file sharing, and sage payments.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-1/2">
+              <img src="/images/hire.png" className="w-full h-full object-cover"/>
+              </div>
+            </div>
+            {/* this div hide upper dive */}
+       </section>
+
+       {/* about us */}
+       <section className="relative z-0">
+        <div className="absolute -z-10 top-[35%] w-fit h-fit">
+          <img src="/images/whatbg.png" className="w-full h-full object-cover" />
+        </div>
+        {/* this dive should be in top  */}
+        <div className="relative z-50 w-full max-w-[1320px] mx-auto">
+          <div>
+            <h2 className="font-poppins font-medium text-4xl leading-11 text-[#242B36] pb-15 text-center ">What Freelancer are Thinking <br /> About Us</h2>
+          </div>
+          {/* cards */}
+          <div>
+              <div className="flex gap-6">
+                {/* single card */}
+                <div className="w-full max-w-[424px] py-5 px-5 shadow-[0_4px_25px_0_rgba(0,0,0,0.04)]">
+                  <div className="flex flex-col items-center mb-6">
+                    <div className="h-[64px] w-[64px] mx-auto">
+                    <img src="/images/freelance-profile.png" className="w-full h-full object-cover"/>
+                  </div>
+                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">Esther Howard</p>
+                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Professional Developer</p>
+                  </div>
+                  <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">Joining this marketplace changed my career. I <br /> can showcase my skills, connect with real <br /> clients, and get paid on time. It feels amazing to ,<br /> grow my freelance journey here.</p>
+                  <div className="h-10 w-10 mx-auto">
+                    <img src="/images/cmt_icon.png" className="w-full h-full object-cover"/>
+                  </div>
+                </div>
+                 {/* single card */}
+                <div className="w-full max-w-[424px] py-5 px-5 shadow-[0_4px_25px_0_rgba(0,0,0,0.04)]">
+                  <div className="flex flex-col items-center mb-6">
+                    <div className="h-[64px] w-[64px] mx-auto">
+                    <img src="/images/freelance-profile.png" className="w-full h-full object-cover"/>
+                  </div>
+                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">Esther Howard</p>
+                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Professional Developer</p>
+                  </div>
+                  <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">Joining this marketplace changed my career. I <br /> can showcase my skills, connect with real <br /> clients, and get paid on time. It feels amazing to ,<br /> grow my freelance journey here.</p>
+                  <div className="h-10 w-10 mx-auto">
+                    <img src="/images/cmt_icon.png" className="w-full h-full object-cover"/>
+                  </div>
+                </div>
+                 {/* single card */}
+                <div className="w-full max-w-[424px] py-5 px-5 shadow-[0_4px_25px_0_rgba(0,0,0,0.04)]">
+                  <div className="flex flex-col items-center mb-6">
+                    <div className="h-[64px] w-[64px] mx-auto">
+                    <img src="/images/freelance-profile.png" className="w-full h-full object-cover"/>
+                  </div>
+                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">Esther Howard</p>
+                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Professional Developer</p>
+                  </div>
+                  <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">Joining this marketplace changed my career. I <br /> can showcase my skills, connect with real <br /> clients, and get paid on time. It feels amazing to ,<br /> grow my freelance journey here.</p>
+                  <div className="h-10 w-10 mx-auto">
+                    <img src="/images/cmt_icon.png" className="w-full h-full object-cover"/>
+                  </div>
+                </div>
+              </div>
+               <div className="flex gap-6 mt-7.5">
+                {/* single card */}
+                <div className="w-full max-w-[424px] py-5 px-5 shadow-[0_4px_25px_0_rgba(0,0,0,0.04)]">
+                  <div className="flex flex-col items-center mb-6">
+                    <div className="h-[64px] w-[64px] mx-auto">
+                    <img src="/images/freelance-profile.png" className="w-full h-full object-cover"/>
+                  </div>
+                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">Esther Howard</p>
+                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Professional Developer</p>
+                  </div>
+                  <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">Joining this marketplace changed my career. I <br /> can showcase my skills, connect with real <br /> clients, and get paid on time. It feels amazing to ,<br /> grow my freelance journey here.</p>
+                  <div className="h-10 w-10 mx-auto">
+                    <img src="/images/cmt_icon.png" className="w-full h-full object-cover"/>
+                  </div>
+                </div>
+                 {/* single card */}
+                <div className="w-full max-w-[424px] py-5 px-5 shadow-[0_4px_25px_0_rgba(0,0,0,0.04)]">
+                  <div className="flex flex-col items-center mb-6">
+                    <div className="h-[64px] w-[64px] mx-auto">
+                    <img src="/images/freelance-profile.png" className="w-full h-full object-cover"/>
+                  </div>
+                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">Esther Howard</p>
+                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Professional Developer</p>
+                  </div>
+                  <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">Joining this marketplace changed my career. I <br /> can showcase my skills, connect with real <br /> clients, and get paid on time. It feels amazing to ,<br /> grow my freelance journey here.</p>
+                  <div className="h-10 w-10 mx-auto">
+                    <img src="/images/cmt_icon.png" className="w-full h-full object-cover"/>
+                  </div>
+                </div>
+                 {/* single card */}
+                <div className="w-full max-w-[424px] py-5 px-5 shadow-[0_4px_25px_0_rgba(0,0,0,0.04)]">
+                  <div className="flex flex-col items-center mb-6">
+                    <div className="h-[64px] w-[64px] mx-auto">
+                    <img src="/images/freelance-profile.png" className="w-full h-full object-cover"/>
+                  </div>
+                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">Esther Howard</p>
+                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Professional Developer</p>
+                  </div>
+                  <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">Joining this marketplace changed my career. I <br /> can showcase my skills, connect with real <br /> clients, and get paid on time. It feels amazing to ,<br /> grow my freelance journey here.</p>
+                  <div className="h-10 w-10 mx-auto">
+                    <img src="/images/cmt_icon.png" className="w-full h-full object-cover"/>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+       </section>
     </>
   );
 }
