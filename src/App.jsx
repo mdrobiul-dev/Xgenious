@@ -576,8 +576,8 @@ function App() {
        </section>
 
        {/* about us */}
-       <section className="relative z-0">
-        <div className="absolute -z-10 top-[35%] w-fit h-fit">
+       <section className="relative z-auto py-30">
+        <div className="absolute -z-20 top-[35%] w-fit h-fit pointer-events-none">
           <img src="/images/whatbg.png" className="w-full h-full object-cover" />
         </div>
         {/* this dive should be in top  */}
@@ -678,6 +678,426 @@ function App() {
           </div>
         </div>
        </section>
+
+       {/* download card */}
+       <section className="py-30">
+                {/* download card will be here */}
+       </section>
+
+       {/* trending servicess */}
+       <section className="py-30 bg-[#F2F8F7]"> 
+         <div className="w-full max-w-[1320px] mx-auto">
+          <h2 className="font-poppins font-medium text-4xl leading-11 text-[#242B36]">Trending Services</h2>
+          <div className="my-10">
+            <div className="flex gap-6">
+            {/* card 1 */}
+            <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card 2 */}
+             <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           {/* card 3 */}
+            <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                <img src="/images/service_logo.png" className="absolute right-6.5 top-6"/>
+                <img src="/images/service_img.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="px-4">
+                <p className="py-3 font-poppins font-normal text-base text-[#414E62]">Design & Creative</p>
+                <h4 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">I will do professional figma design for website  UI UX and mobile app desi....</h4>
+                <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
+                 <div className="h-full w-full max-w-5 max-h-5"> <img src="/images/star.png" className="h-full w-full object-cover" /></div>
+                  <p className="font-poppins font-medium text-base leading-6 text-[#3B4759]">4.0</p>
+                  <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">(3 Reviews)</p>
+                </div>
+                <div className="pt-3 pb-4 flex justify-between">
+                  <div className="flex gap-1.5 items-center">
+                    <div className="w-full h-full max-h-9 max-w-9 overflow-hidden">
+                      <img src="/images/profile.png" className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-poppins font-medium text-base leading-6 text-[#242B36]">Robert Bross</p>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">Starting at:</p>
+                    <p className="font-poppins font-semibold text-base leading-6 text-[#242B36]"> $29</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+         </div>
+       </section>
+
+       {/* choose your plan */}
+       <section className="py-30">
+          <div className="w-full max-w-[1320px] mx-auto">
+            <h2 className=" text-center font-poppins font-medium text-4xl leading-11 text-[#242B36] pb-15">Choose Your Plan</h2>
+          <div className="flex gap-6">
+            {/* card 1 */}
+            <div className="p-6 border-2 border-[#C4C8CE] rounded-2xl">
+              <div>
+               <h3 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">Free Plan</h3>
+               <div className="flex pt-3 items-center">
+                <span className="font-poppins font-medium text-[28px] leading-9 text-[#414E62]">$</span>
+                <span className="font-poppins font-semibold text-4xl leading-11 text-[#242B36]">0</span>
+                <span className="font-poppins font-normal text-base leading-6 text-[#414E62]">/month</span>
+               </div>
+               <p className="font-poppins font-normal text-base leading-6 text-[#414E62] py-4">For starting out teams building apps gor many <br /> public & privet users</p>
+               <button className="flex items-center justify-center text-white bg-[#007456] px-[118px] py-2.5 rounded-xl">
+                Start Free Trial
+                <div className="pt-1">
+                  <IoMdArrowForward className="text-white text-xl"/>
+                </div>
+               </button>
+               <div>
+                <h4 className="font-poppins font-medium text-base leading-6 text-[#242B36] py-6">Marketplace Plan include:</h4>
+                <ul className="flex flex-col gap-4">
+                  <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Get while register
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                     Must register as a freelancer
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      One time get
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Use for job proposal
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Totally Free
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Get only once
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      20 connects free for job
+                    </div>
+                  </li>
+                </ul>
+               </div>
+              </div>
+            </div>
+            {/* card 2 */}
+             <div className="p-6 border-2 border-[#C4C8CE] rounded-2xl">
+              <div>
+               <h3 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">Free Plan</h3>
+               <div className="flex pt-3 items-center">
+                <span className="font-poppins font-medium text-[28px] leading-9 text-[#414E62]">$</span>
+                <span className="font-poppins font-semibold text-4xl leading-11 text-[#242B36]">49</span>
+                <span className="font-poppins font-normal text-base leading-6 text-[#414E62]">/month</span>
+               </div>
+               <p className="font-poppins font-normal text-base leading-6 text-[#414E62] py-4">For starting out teams building apps gor many <br /> public & privet users</p>
+               <button className="flex items-center justify-center text-white bg-[#007456] px-[118px] py-2.5 rounded-xl">
+                Start Free Trial
+                <div className="pt-1">
+                  <IoMdArrowForward className="text-white text-xl"/>
+                </div>
+               </button>
+               <div>
+                <h4 className="font-poppins font-medium text-base leading-6 text-[#242B36] py-6">Marketplace Plan include:</h4>
+                <ul className="flex flex-col gap-4">
+                  <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Get while register
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                     Must register as a freelancer
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      One time get
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Use for job proposal
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Totally Free
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Get only once
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      20 connects free for job
+                    </div>
+                  </li>
+                </ul>
+               </div>
+              </div>
+            </div>
+            {/* card 3 */}
+             <div className="p-6 border-2 border-[#C4C8CE] rounded-2xl">
+              <div>
+               <h3 className="font-poppins font-medium text-xl leading-7 text-[#242B36]">Free Plan</h3>
+               <div className="flex pt-3 items-center">
+                <span className="font-poppins font-medium text-[28px] leading-9 text-[#414E62]">$</span>
+                <span className="font-poppins font-semibold text-4xl leading-11 text-[#242B36]">126</span>
+                <span className="font-poppins font-normal text-base leading-6 text-[#414E62]">/month</span>
+               </div>
+               <p className="font-poppins font-normal text-base leading-6 text-[#414E62] py-4">For starting out teams building apps gor many <br /> public & privet users</p>
+               <button className="flex items-center justify-center text-white bg-[#007456] px-[118px] py-2.5 rounded-xl">
+                Start Free Trial
+                <div className="pt-1">
+                  <IoMdArrowForward className="text-white text-xl"/>
+                </div>
+               </button>
+               <div>
+                <h4 className="font-poppins font-medium text-base leading-6 text-[#242B36] py-6">Marketplace Plan include:</h4>
+                <ul className="flex flex-col gap-4">
+                  <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Get while register
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                     Must register as a freelancer
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      One time get
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Use for job proposal
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Totally Free
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      Get only once
+                    </div>
+                  </li>
+                   <li>
+                    <div className="flex gap-2 items-center">
+                      <div className="h-5 w-5">
+                        <img src="/images/slect_logo.png" className="w-full h-full object-cover" />
+                      </div>
+                      20 connects free for job
+                    </div>
+                  </li>
+                </ul>
+               </div>
+              </div>
+            </div>
+          </div>
+          </div>
+       </section>
+
+       {/* brows service by categories */}
+        <section className="py-[120px]  bg-[#F2F8F7]">
+        <div className=" w-full max-w-[1320px] mx-auto">
+          <div className="flex justify-between items-center mb-10"><h2 className="font-poppins font-medium text-4xl text-[#242B36] leading-11">
+            Browse Service by Categories
+          </h2>
+          <div className="py-2.5 border-2  border-[#007456] rounded-lg w-full max-w-50 flex justify-center items-center">
+            <a
+              href="#"
+              className="pr-1.5 font-poppins font-medium text-base leading-6 text-[#007456]"
+            >
+              View all Services
+            </a>
+            <MdArrowOutward className="inline text-xl text-[#007456]" />
+          </div>
+           </div>
+           <div className="flex gap-6">
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">8 Services</p>
+            <h4 className="px-6 font-poppins font-medium text-xl leading-7 text-[#FFFFFF] pb-75">Web Development</h4>
+            </div>
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">12 Services</p>
+            <h4 className="px-6 font-poppins font-medium text-xl leading-7 text-[#FFFFFF] pb-75">Content Writer</h4>
+            </div>
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">25 Services</p>
+            <h4 className="px-6 font-poppins font-medium text-xl leading-7 text-[#FFFFFF] pb-75">Design & Creative</h4>
+            </div>
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">9 Services</p>
+            <h4 className="px-6 font-poppins font-medium text-xl leading-7 text-[#FFFFFF] pb-75">SEO Expert</h4>
+            </div>
+           </div>
+        </div>
+        {/* cards */}
+      
+      </section>
+
+      {/* top rated freelancer */}
+       <section className="py-[120px] w-full max-w-[1320px] mx-auto">
+        <div className="flex justify-between items-center mb-10">
+          <h2 className="font-poppins font-medium text-4xl text-[#242B36] leading-11">
+           Top Rated Freelancers
+          </h2>
+          <div className="py-2 border-2 border-[#007456] rounded-lg w-full max-w-36 flex justify-center items-center">
+            <a
+              href="#"
+              className="pr-1.5 font-poppins font-medium text-base leading-6 text-[#007456]"
+            >
+              Browse all 
+            </a>
+            <MdArrowOutward className="inline text-xl text-[#007456]" />
+          </div>
+        </div>
+        {/* cards */}
+        <div>
+          <div className="p-8">
+            <div className="flex gap-3">
+              <div className="h-full w-full max-h-20 max-w-20">
+                <img src="/images/freelance-profile.png" className="h-full w-full object-cover"/>
+              </div>
+              <div>
+                <div className="flex">
+                  <p className="pr-2.5 border-r-2 border-r-[#A8AEB7] mr-4 font-poppins font-medium text-xl leading-7 text-[#242B36]">Guy Hawkins</p>
+                  <div className="py-1 px-1.5 bg-[#007456]/15 text-[#007456] font-poppins font-medium text-sm leading-5 rounded-4xl">Vetted Pro</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </section>
     </>
   );
 }
