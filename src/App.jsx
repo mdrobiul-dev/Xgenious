@@ -3,11 +3,14 @@ import { IoSearchOutline } from "react-icons/io5";
 import { IoMdArrowForward } from "react-icons/io";
 import { MdArrowOutward } from "react-icons/md";
 import { FiSend } from "react-icons/fi";
+import { IoArrowBackOutline } from "react-icons/io5";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 function App() {
   return (
     <>
-      <section className="bg-[#E2FFF6]/20 ">
-        <div className="px-28 flex justify-between items-center py-5 border-b-[1px] border-[#ECEDEF]">
+      <section className="bg-[#E2FFF6]/20  ">
+        <div className="px-28 flex justify-between items-center py-5 border-b-[1px] border-[#ECEDEF] ">
           <div className="w-[157px] h-[30px]">
             <a href="#">
               <img
@@ -140,7 +143,19 @@ function App() {
             </div>
           </div>
           <div className="w-[40%] flex justify-center items-center relative">
-            <div className="absolute top-7">
+            <div className="px-4 py-4.5 bg-white flex absolute z-20 rounded-xl gap-1 -left-10 top-[35%]">
+              <div className="h-6 w-6">
+                <img src="/images/fi_2.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="font-poppins font-medium text-lg leading-7 text-[#242B36]">Complete Project</div>
+            </div>
+            <div className="px-4 py-4.5 bg-white flex absolute z-20 rounded-xl gap-1 -right-10 bottom-[35%]">
+              <div className="h-6 w-6">
+                <img src="/images/fi_1.png" className="h-full w-full object-cover"/>
+              </div>
+              <div className="font-poppins font-medium text-lg leading-7 text-[#242B36]">Hired 41+ Talents</div>
+            </div>
+            <div className="absolute top-9">
               <img src="/images/herobg.png" />
             </div>
             <div className="z-10">
@@ -343,7 +358,7 @@ function App() {
                     className="absolute right-6.5 top-6"
                   />
                   <img
-                    src="/images/service_img.png"
+                    src="/images/service_2.png"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -397,12 +412,18 @@ function App() {
               {/* card 3 */}
               <div className="w-full max-w-[424px] bg-white rounded-xl">
                 <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
+                   <div className=" absolute h-10 w-10 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] left-5 top-[45%] flex items-center justify-center">
+                    <IoIosArrowBack className="text-2xl"/>
+                </div>
+                <div className=" absolute h-10 w-10 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] right-5 top-[45%] flex items-center justify-center">
+                    <IoIosArrowForward className="text-2xl"/>
+                </div>
                   <img
                     src="/images/service_logo.png"
                     className="absolute right-6.5 top-6"
                   />
                   <img
-                    src="/images/service_img.png"
+                    src="/images/service_3.png"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -464,7 +485,7 @@ function App() {
                     className="absolute right-6.5 top-6"
                   />
                   <img
-                    src="/images/service_img.png"
+                    src="/images/service_4.png"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -523,7 +544,7 @@ function App() {
                     className="absolute right-6.5 top-6"
                   />
                   <img
-                    src="/images/service_img.png"
+                    src="/images/service_5.png"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -582,7 +603,7 @@ function App() {
                     className="absolute right-6.5 top-6"
                   />
                   <img
-                    src="/images/service_img.png"
+                    src="/images/service_6.png"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -635,6 +656,19 @@ function App() {
               </div>
             </div>
           </div>
+        
+        {/* button */}
+        <div className="w-fit flex items-center bg-[#007456] gap-1 border-2 border-[#007456] rounded-lg py-2.5 px-4.5 mx-auto">
+              <a
+                href="#"
+                className="font-poppins font-medium text-sm leading-5 text-white "
+              >
+                All Services
+              </a>
+              <div className="pt-[1px]">
+                <MdArrowOutward className="text-lg text-white" />
+              </div>
+            </div>
         </div>
       </section>
 
@@ -851,7 +885,7 @@ function App() {
             <div className="flex gap-3 py-8">
               <div className="h-[32px] w-[32px]">
                 <img
-                  src="/images/hb_icon.png"
+                  src="/images/hb_2.png"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -867,7 +901,7 @@ function App() {
             <div className="flex gap-3">
               <div className="h-[32px] w-[32px]">
                 <img
-                  src="/images/hb_icon.png"
+                  src="/images/hb_3.png"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -893,13 +927,14 @@ function App() {
       </section>
 
       {/* about us */}
-      <section className="relative z-auto py-30">
-        <div className="absolute -z-20 top-[35%] w-fit h-fit pointer-events-none">
+      <section className="relative z-0 py-30">
+
+        {/* <div className="absolute -z-20 top-[35%] w-fit h-fit pointer-events-none">
           <img
             src="/images/whatbg.png"
             className="w-full h-full object-cover"
           />
-        </div>
+        </div> */}
         {/* this dive should be in top  */}
         <div className="relative z-50 w-full max-w-[1320px] mx-auto">
           <div>
@@ -944,15 +979,15 @@ function App() {
                 <div className="flex flex-col items-center mb-6">
                   <div className="h-[64px] w-[64px] mx-auto">
                     <img
-                      src="/images/freelance-profile.png"
+                      src="/images/profile_2.png"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">
-                    Esther Howard
+                 Jane Cooper
                   </p>
                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">
-                    Professional Developer
+                    Product Designer
                   </p>
                 </div>
                 <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">
@@ -973,15 +1008,15 @@ function App() {
                 <div className="flex flex-col items-center mb-6">
                   <div className="h-[64px] w-[64px] mx-auto">
                     <img
-                      src="/images/freelance-profile.png"
+                      src="/images/profile_3.png"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">
-                    Esther Howard
+                    Wade Warren
                   </p>
                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">
-                    Professional Developer
+                  AI Services
                   </p>
                 </div>
                 <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">
@@ -1004,15 +1039,15 @@ function App() {
                 <div className="flex flex-col items-center mb-6">
                   <div className="h-[64px] w-[64px] mx-auto">
                     <img
-                      src="/images/freelance-profile.png"
+                      src="/images/profile_4.png"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">
-                    Esther Howard
+                    Jacob Jones
                   </p>
                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">
-                    Professional Developer
+                  Programmer
                   </p>
                 </div>
                 <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">
@@ -1033,15 +1068,15 @@ function App() {
                 <div className="flex flex-col items-center mb-6">
                   <div className="h-[64px] w-[64px] mx-auto">
                     <img
-                      src="/images/freelance-profile.png"
+                      src="/images/profile_5.png"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <p className="py-2 font-poppins font-medium text-lg leading-6.5 text-[#242B36]">
-                    Esther Howard
+                    Robert Fox
                   </p>
                   <p className="font-poppins font-normal text-sm leading-5 text-[#414E62]">
-                    Professional Developer
+                     Customer support
                   </p>
                 </div>
                 <p className="font-poppins font-normal text-base leading-6 text-[#242B36] text-center mb-6">
@@ -1062,7 +1097,7 @@ function App() {
                 <div className="flex flex-col items-center mb-6">
                   <div className="h-[64px] w-[64px] mx-auto">
                     <img
-                      src="/images/freelance-profile.png"
+                      src="/images/profile.png"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -1103,7 +1138,10 @@ function App() {
           <div className="my-10">
             <div className="flex gap-6">
               {/* card 1 */}
-              <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="w-full max-w-[424px] bg-white rounded-xl relative">
+                <div className=" absolute h-14 w-14 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -left-7 top-[45%] flex items-center justify-center">
+                    <IoArrowBackOutline className="text-2xl"/>
+                </div>
                 <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
                   <img
                     src="/images/service_logo.png"
@@ -1124,7 +1162,6 @@ function App() {
                   </h4>
                   <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
                     <div className="h-full w-full max-w-5 max-h-5">
-                      {" "}
                       <img
                         src="/images/star.png"
                         className="h-full w-full object-cover"
@@ -1169,7 +1206,7 @@ function App() {
                     className="absolute right-6.5 top-6"
                   />
                   <img
-                    src="/images/service_img.png"
+                    src="/images/service_5.png"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -1221,14 +1258,17 @@ function App() {
                 </div>
               </div>
               {/* card 3 */}
-              <div className="w-full max-w-[424px] bg-white rounded-xl">
+              <div className="w-full max-w-[424px] bg-white rounded-xl relative">
+                 <div className=" absolute h-14 w-14 rounded-full bg-[#FA8C00] shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -right-7 top-[45%] flex items-center justify-center">
+                    <IoMdArrowForward className="text-2xl text-white"/>
+                </div>
                 <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
                   <img
                     src="/images/service_logo.png"
                     className="absolute right-6.5 top-6"
                   />
                   <img
-                    src="/images/service_img.png"
+                    src="/images/service_6.png"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -1652,7 +1692,10 @@ function App() {
             </div>
           </div>
           <div className="flex gap-6">
-            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover  align-middle relative">
+             <div className=" absolute h-14 w-14 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -left-7 top-[45%] flex items-center justify-center">
+                    <IoArrowBackOutline className="text-2xl"/>
+                </div>
               <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">
                 8 Services
               </p>
@@ -1660,7 +1703,7 @@ function App() {
                 Web Development
               </h4>
             </div>
-            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories_2.png')] object-cover overflow-hidden align-middle">
               <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">
                 12 Services
               </p>
@@ -1668,7 +1711,7 @@ function App() {
                 Content Writer
               </h4>
             </div>
-            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories_3.png')] object-cover overflow-hidden align-middle">
               <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">
                 25 Services
               </p>
@@ -1676,7 +1719,10 @@ function App() {
                 Design & Creative
               </h4>
             </div>
-            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover overflow-hidden align-middle">
+            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories_4.png')] object-cover relative align-middle">
+              <div className=" absolute h-14 w-14 rounded-full bg-[#FA8C00] shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -right-7 top-[45%] flex items-center justify-center">
+                    <IoMdArrowForward className="text-2xl text-white"/>
+                </div>
               <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">
                 9 Services
               </p>
@@ -1711,7 +1757,7 @@ function App() {
             <div className="flex gap-3">
               <div className="h-full w-full max-h-20 max-w-20">
                 <img
-                  src="/images/freelance-profile.png"
+                  src="/images/freelance_1.png"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -1895,7 +1941,7 @@ function App() {
             <div className="flex gap-3">
               <div className="h-full w-full max-h-20 max-w-20">
                 <img
-                  src="/images/freelance-profile.png"
+                  src="/images/freelance_3.png"
                   className="h-full w-full object-cover"
                 />
               </div>
