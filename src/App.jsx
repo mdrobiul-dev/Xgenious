@@ -20,7 +20,7 @@ function App() {
             </a>
           </div>
           <nav>
-            <ul className="flex gap-10 font-poppins font-normal text-base leading-6">
+            <ul className="flex gap-10 font-poppins font-normal text-base leading-6 cursor-pointer">
               <li>
                 <div className="flex gap-1.5 items-center font-poppins font-normal text-base leading-6">
                   <a>Home</a>
@@ -147,13 +147,13 @@ function App() {
               <div className="h-6 w-6">
                 <img src="/images/fi_2.png" className="h-full w-full object-cover"/>
               </div>
-              <div className="font-poppins font-medium text-lg leading-7 text-[#242B36]">Complete Project</div>
+              <div className="font-poppins font-medium text-lg leading-7 text-[#242B36] cursor-pointer">Complete Project</div>
             </div>
             <div className="px-4 py-4.5 bg-white flex absolute z-20 rounded-xl gap-1 -right-10 bottom-[35%]">
               <div className="h-6 w-6">
                 <img src="/images/fi_1.png" className="h-full w-full object-cover"/>
               </div>
-              <div className="font-poppins font-medium text-lg leading-7 text-[#242B36]">Hired 41+ Talents</div>
+              <div className="font-poppins font-medium text-lg leading-7 text-[#242B36] cursor-pointer">Hired 41+ Talents</div>
             </div>
             <div className="absolute top-9">
               <img src="/images/herobg.png" />
@@ -412,10 +412,10 @@ function App() {
               {/* card 3 */}
               <div className="w-full max-w-[424px] bg-white rounded-xl">
                 <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
-                   <div className=" absolute h-10 w-10 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] left-5 top-[45%] flex items-center justify-center">
+                   <div className=" cursor-pointer absolute h-10 w-10 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] left-5 top-[45%] flex items-center justify-center">
                     <IoIosArrowBack className="text-2xl"/>
                 </div>
-                <div className=" absolute h-10 w-10 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] right-5 top-[45%] flex items-center justify-center">
+                <div className=" cursor-pointer absolute h-10 w-10 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] right-5 top-[45%] flex items-center justify-center">
                     <IoIosArrowForward className="text-2xl"/>
                 </div>
                   <img
@@ -437,7 +437,6 @@ function App() {
                   </h4>
                   <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
                     <div className="h-full w-full max-w-5 max-h-5">
-                      {" "}
                       <img
                         src="/images/star.png"
                         className="h-full w-full object-cover"
@@ -1127,7 +1126,16 @@ function App() {
       </section>
 
       {/* download card */}
-      <section className="py-30">{/* download card will be here */}</section>
+      <section className="py-30">
+        <div className="w-full max-w-[1320px] mx-auto flex gap-6">
+           <div className="w-1/2 h-fit cursor-pointer">
+               <img src="/images/download_1.png" className="h-full w-full object-cover"/>
+           </div>
+           <div className="w-1/2 h-fit cursor-pointer">
+               <img src="/images/download_2.png" className="h-full w-full object-cover"/>
+           </div>
+        </div>
+      </section>
 
       {/* trending servicess */}
       <section className="py-30 bg-[#F2F8F7]">
@@ -1139,7 +1147,7 @@ function App() {
             <div className="flex gap-6">
               {/* card 1 */}
               <div className="w-full max-w-[424px] bg-white rounded-xl relative">
-                <div className=" absolute h-14 w-14 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -left-7 top-[45%] flex items-center justify-center">
+                <div className="cursor-pointer absolute h-14 w-14 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -left-7 top-[45%] flex items-center justify-center">
                     <IoArrowBackOutline className="text-2xl"/>
                 </div>
                 <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
@@ -1259,7 +1267,7 @@ function App() {
               </div>
               {/* card 3 */}
               <div className="w-full max-w-[424px] bg-white rounded-xl relative">
-                 <div className=" absolute h-14 w-14 rounded-full bg-[#FA8C00] shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -right-7 top-[45%] flex items-center justify-center">
+                 <div className=" cursor-pointer absolute h-14 w-14 rounded-full bg-[#FA8C00] shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -right-7 top-[45%] flex items-center justify-center">
                     <IoMdArrowForward className="text-2xl text-white"/>
                 </div>
                 <div className="p-4 w-full h-full max-h-[224px] overflow-hidden relative">
@@ -1282,7 +1290,6 @@ function App() {
                   </h4>
                   <div className="flex gap-1 items-center py-3 border-b-2 border-[#1B2129]/10">
                     <div className="h-full w-full max-w-5 max-h-5">
-                      {" "}
                       <img
                         src="/images/star.png"
                         className="h-full w-full object-cover"
@@ -1693,7 +1700,7 @@ function App() {
           </div>
           <div className="flex gap-6">
             <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories.png')] object-cover  align-middle relative">
-             <div className=" absolute h-14 w-14 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -left-7 top-[45%] flex items-center justify-center">
+             <div className="cursor-pointer absolute h-14 w-14 rounded-full bg-white shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -left-7 top-[45%] flex items-center justify-center">
                     <IoArrowBackOutline className="text-2xl"/>
                 </div>
               <p className="px-6 pt-6 pb-2.5 font-poppins font-normal text-base leading-7 text-[#FFFFFF]">
@@ -1719,7 +1726,7 @@ function App() {
                 Design & Creative
               </h4>
             </div>
-            <div className="h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories_4.png')] object-cover relative align-middle">
+            <div className="cursor-pointer h-full w-full max-w-78 max-h-90 bg-[url('/images/service_categories_4.png')] object-cover relative align-middle">
               <div className=" absolute h-14 w-14 rounded-full bg-[#FA8C00] shadow-[0_6px_10px_0_rgba(0,0,0,0.1)] -right-7 top-[45%] flex items-center justify-center">
                     <IoMdArrowForward className="text-2xl text-white"/>
                 </div>
@@ -2059,13 +2066,13 @@ function App() {
       </section>
 
       {/* footer section */}
-      <footer className="bg-[url('/images/Footer.png')] object-cover overflow-hidden align-middle">
+      <footer className="bg-[url('/images/Footer.png')] object-cover overflow-hidden align-middle ">
         <div className="bg-[#000000]/96">
           <div className=" w-full max-w-[1320px] mx-auto ">
-            <div className="pt-30 flex gap-38 border-b-2 border-b-[#414E62] pb-31.5">
+            <div className="pt-30 flex gap-38 border-b-2 border-b-[#414E62] pb-31.5 cursor-pointer">
               {/* about */}
               <div>
-                <h2 className=" text-white pb-8 font-poppins font-medium text-2xl leading-8">
+                <h2 className=" text-white pb-8 font-poppins font-medium text-2xl leading-8 ">
                   About{" "}
                 </h2>
                 <ul className="flex flex-col gap-4 w-fit text-[#C4C8CE] pb-8 font-poppins font-normal text-lg leading-7">
